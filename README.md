@@ -1,0 +1,2 @@
+# aquinas-power-lexicon
+
