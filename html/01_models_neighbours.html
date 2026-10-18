@@ -7899,8 +7899,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B,-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C-%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9">2. Параметры, словарь и загрузка моделей<a class="anchor-link" href="#2.-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B,-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C-%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9">¶</a></h2><p>Корень проекта определяется автоматически. Модели ищутся в <code>data/models/</code> и в прежних папках репозитория; повторное скачивание корректных файлов не требуется. Если модель отсутствует, она скачивается в <code>data/models/</code> с проверкой SHA-256. Для работы без сети укажите <code>DOWNLOAD_MISSING_MODELS = False</code>. Рисунки сохраняются в <code>figures/</code> корня проекта.</p>
-<p>Научные параметры, словарь и алгоритмы расчётов не изменены.</p>
+<h2 id="2.-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B,-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C-%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9">2. Параметры, словарь и загрузка моделей<a class="anchor-link" href="#2.-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B,-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C-%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9">¶</a></h2><p>Перед запуском поместите исходные <code>.vec</code>-файлы в <code>data/models/</code> либо один раз пропишите их абсолютные пути в <code>model_paths.json</code> (образец — <code>model_paths.example.json</code>). По умолчанию сети нет: <code>DOWNLOAD_MISSING_MODELS = False</code>. При включении загрузки ноутбук делает до трёх попыток и сохраняет незавершённый файл для продолжения. Проверка исходных SHA-256 сохранена. Рисунки сохраняются в папку <code>figures/</code> корня репозитория.</p>
+<p>Параметры исследования и последующие расчётные ячейки не изменены.</p>
 </div>
 </div>
 </div>
@@ -7912,7 +7912,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">hashlib</span><span class="o">,</span><span class="w"> </span><span class="nn">itertools</span><span class="o">,</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">urllib.request</span><span class="o">,</span><span class="w"> </span><span class="nn">warnings</span><span class="o">,</span><span class="w"> </span><span class="nn">shutil</span><span class="o">,</span><span class="w"> </span><span class="nn">tempfile</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">hashlib</span><span class="o">,</span><span class="w"> </span><span class="nn">itertools</span><span class="o">,</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">urllib.request</span><span class="o">,</span><span class="w"> </span><span class="nn">warnings</span><span class="o">,</span><span class="w"> </span><span class="nn">json</span><span class="o">,</span><span class="w"> </span><span class="nn">time</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="s2">"IProgress not found"</span><span class="p">)</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="s2">"n_jobs value"</span><span class="p">)</span>
@@ -7950,8 +7950,23 @@ a.anchor-link {
 <span class="n">PROJECT_ROOT</span> <span class="o">=</span> <span class="n">find_project_root</span><span class="p">()</span>
 <span class="n">MODEL_DIR</span> <span class="o">=</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"data"</span> <span class="o">/</span> <span class="s2">"models"</span>
 <span class="n">MODEL_DIR</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="c1"># True: скачать отсутствующую модель; False: работать только с локальными файлами.</span>
-<span class="n">DOWNLOAD_MISSING_MODELS</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="c1"># По умолчанию работаем только с уже скачанными моделями.</span>
+<span class="c1"># Сетевую загрузку можно включить явно, изменив False на True.</span>
+<span class="n">DOWNLOAD_MISSING_MODELS</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1"># Необязательный файл model_paths.json в корне проекта задаёт пути к моделям</span>
+<span class="c1"># один раз для ОБОИХ ноутбуков. См. model_paths.example.json.</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_model_paths</span><span class="p">():</span>
+    <span class="n">config_file</span> <span class="o">=</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"model_paths.json"</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">config_file</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+        <span class="k">return</span> <span class="p">{}</span>
+    <span class="k">with</span> <span class="n">config_file</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"r"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span> <span class="k">as</span> <span class="n">stream</span><span class="p">:</span>
+        <span class="n">paths</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">paths</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"model_paths.json должен содержать объект с ключами classical и aquinas"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">paths</span>
+
+<span class="n">MODEL_PATHS</span> <span class="o">=</span> <span class="n">read_model_paths</span><span class="p">()</span>
 
 <span class="n">SEED</span> <span class="o">=</span> <span class="mi">42</span>
 
@@ -7997,9 +8012,9 @@ a.anchor-link {
                      <span class="s2">"figure.facecolor"</span><span class="p">:</span> <span class="s2">"white"</span><span class="p">,</span> <span class="s2">"savefig.facecolor"</span><span class="p">:</span> <span class="s2">"white"</span><span class="p">})</span>
 
 <span class="c1"># --- Загрузка и проверка моделей -------------------------------------------------</span>
-<span class="c1"># Предпочтительна папка data/models/. Также принимаются файлы из старой версии</span>
-<span class="c1"># репозитория и исходные имена файлов проекта LiLa (без копирования больших моделей).</span>
-<span class="c1"># SHA-256 сверяется поблочно; существующая корректная модель не скачивается заново.</span>
+<span class="c1"># Сначала используются локальные файлы. Пути можно записать один раз</span>
+<span class="c1"># в model_paths.json, не редактируя код двух ноутбуков.</span>
+<span class="c1"># Контрольные суммы моделей остаются прежними.</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">file_sha256</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
     <span class="n">digest</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">()</span>
     <span class="k">with</span> <span class="n">path</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"rb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">stream</span><span class="p">:</span>
@@ -8008,70 +8023,116 @@ a.anchor-link {
     <span class="k">return</span> <span class="n">digest</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
 
 
-<span class="k">def</span><span class="w"> </span><span class="nf">locate_or_download_model</span><span class="p">(</span><span class="n">info</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">validate_model_file</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">info</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Файл модели </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> не найден: </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">file_sha256</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="o">!=</span> <span class="n">info</span><span class="p">[</span><span class="s2">"sha256"</span><span class="p">]:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">"Контрольная сумма не совпадает для модели </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">. "</span>
+            <span class="s2">"Убедитесь, что выбран исходный несoвмещённый файл LiLa нужной версии. "</span>
+            <span class="s2">"Файл не изменён и не удалён."</span>
+        <span class="p">)</span>
+    <span class="k">return</span> <span class="n">path</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">download_model</span><span class="p">(</span><span class="n">info</span><span class="p">):</span>
+    <span class="c1"># Скачивание необязательно; сетевые повторы не затрагивают научную часть.</span>
+    <span class="c1"># При разрыве соединения недокачанный файл .part остаётся для возобновления.</span>
+    <span class="n">destination</span> <span class="o">=</span> <span class="n">MODEL_DIR</span> <span class="o">/</span> <span class="n">info</span><span class="p">[</span><span class="s2">"file"</span><span class="p">]</span>
+    <span class="n">part</span> <span class="o">=</span> <span class="n">MODEL_DIR</span> <span class="o">/</span> <span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="s2">"file"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">".part"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Скачивание </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> с LiLa. Файл: </span><span class="si">{</span><span class="n">destination</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">last_error</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">):</span>
+        <span class="n">offset</span> <span class="o">=</span> <span class="n">part</span><span class="o">.</span><span class="n">stat</span><span class="p">()</span><span class="o">.</span><span class="n">st_size</span> <span class="k">if</span> <span class="n">part</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"User-Agent"</span><span class="p">:</span> <span class="s2">"aquinas-power-lexicon/1.1"</span><span class="p">}</span>
+        <span class="k">if</span> <span class="n">offset</span><span class="p">:</span>
+            <span class="n">headers</span><span class="p">[</span><span class="s2">"Range"</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"bytes=</span><span class="si">{</span><span class="n">offset</span><span class="si">}</span><span class="s2">-"</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">request</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="s2">"url"</span><span class="p">],</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+            <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">180</span><span class="p">)</span> <span class="k">as</span> <span class="n">response</span><span class="p">:</span>
+                <span class="n">status</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s2">"status"</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+                <span class="c1"># Некоторые серверы игнорируют Range. В этом случае файл</span>
+                <span class="c1"># записывается заново, чтобы избежать дублирования данных.</span>
+                <span class="n">mode</span> <span class="o">=</span> <span class="s2">"ab"</span> <span class="k">if</span> <span class="n">offset</span> <span class="ow">and</span> <span class="n">status</span> <span class="o">==</span> <span class="mi">206</span> <span class="k">else</span> <span class="s2">"wb"</span>
+                <span class="k">with</span> <span class="n">part</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">mode</span><span class="p">)</span> <span class="k">as</span> <span class="n">output</span><span class="p">:</span>
+                    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+                        <span class="n">chunk</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">1024</span> <span class="o">*</span> <span class="mi">1024</span><span class="p">)</span>
+                        <span class="k">if</span> <span class="ow">not</span> <span class="n">chunk</span><span class="p">:</span>
+                            <span class="k">break</span>
+                        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">file_sha256</span><span class="p">(</span><span class="n">part</span><span class="p">)</span> <span class="o">!=</span> <span class="n">info</span><span class="p">[</span><span class="s2">"sha256"</span><span class="p">]:</span>
+                <span class="n">part</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="n">missing_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="sa">f</span><span class="s2">"Загруженная модель </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> имеет неверную SHA-256. "</span>
+                    <span class="s2">"Проверьте адрес и версию модели LiLa."</span>
+                <span class="p">)</span>
+            <span class="n">part</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">destination</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">destination</span>
+        <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+            <span class="k">raise</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="n">last_error</span> <span class="o">=</span> <span class="n">exc</span>
+            <span class="k">if</span> <span class="n">attempt</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Не удалось завершить загрузку (попытка </span><span class="si">{</span><span class="n">attempt</span><span class="si">}</span><span class="s2">/3): </span><span class="si">{</span><span class="n">exc</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">attempt</span><span class="p">)</span>
+    <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">"Загрузить </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> не удалось после трёх попыток: </span><span class="si">{</span><span class="n">last_error</span><span class="si">}</span><span class="s2">. "</span>
+        <span class="s2">"Укажите путь к ранее скачанной модели в model_paths.json "</span>
+        <span class="sa">f</span><span class="s2">"или поместите нужный файл в </span><span class="si">{</span><span class="n">MODEL_DIR</span><span class="si">}</span><span class="s2">. "</span>
+        <span class="s2">"При необходимости повторный запуск может продолжить файл .part."</span>
+    <span class="p">)</span> <span class="kn">from</span><span class="w"> </span><span class="nn">last_error</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">locate_or_download_model</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">info</span><span class="p">):</span>
     <span class="n">original_name</span> <span class="o">=</span> <span class="n">info</span><span class="p">[</span><span class="s2">"url"</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">search_dirs</span> <span class="o">=</span> <span class="p">(</span><span class="n">MODEL_DIR</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"notebooks"</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"data"</span><span class="p">)</span>
     <span class="n">filenames</span> <span class="o">=</span> <span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="s2">"file"</span><span class="p">],</span> <span class="n">original_name</span><span class="p">)</span>
-    <span class="n">checked</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="c1"># Явные пути имеют приоритет над автоматическим поиском.</span>
+    <span class="k">if</span> <span class="n">MODEL_PATHS</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+        <span class="n">candidate</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expandvars</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">MODEL_PATHS</span><span class="p">[</span><span class="n">name</span><span class="p">])))</span><span class="o">.</span><span class="n">expanduser</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate</span><span class="o">.</span><span class="n">is_absolute</span><span class="p">():</span>
+            <span class="n">candidate</span> <span class="o">=</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="n">candidate</span>
+        <span class="n">candidate</span> <span class="o">=</span> <span class="n">candidate</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">validate_model_file</span><span class="p">(</span><span class="n">candidate</span><span class="p">,</span> <span class="n">info</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Локальная модель </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+
+    <span class="n">search_dirs</span> <span class="o">=</span> <span class="p">(</span><span class="n">MODEL_DIR</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"notebooks"</span><span class="p">,</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"data"</span><span class="p">)</span>
     <span class="n">invalid_files</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">folder</span> <span class="ow">in</span> <span class="n">search_dirs</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
             <span class="n">candidate</span> <span class="o">=</span> <span class="n">folder</span> <span class="o">/</span> <span class="n">filename</span>
-            <span class="k">if</span> <span class="n">candidate</span> <span class="ow">in</span> <span class="n">checked</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">candidate</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
                 <span class="k">continue</span>
-            <span class="n">checked</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">candidate</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">file_sha256</span><span class="p">(</span><span class="n">candidate</span><span class="p">)</span> <span class="o">==</span> <span class="n">info</span><span class="p">[</span><span class="s2">"sha256"</span><span class="p">]:</span>
-                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Локальная модель найдена: </span><span class="si">{</span><span class="n">candidate</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Локальная модель </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">candidate</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
                 <span class="k">return</span> <span class="n">candidate</span>
-            <span class="n">invalid_files</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">candidate</span><span class="p">)</span>
+            <span class="n">invalid_files</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">candidate</span><span class="p">))</span>
 
     <span class="k">if</span> <span class="n">invalid_files</span><span class="p">:</span>
-        <span class="n">paths</span> <span class="o">=</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">invalid_files</span><span class="p">)</span>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="s2">"Найден файл модели, но его SHA-256 не совпадает с ожидаемым: "</span> <span class="o">+</span> <span class="n">paths</span>
-            <span class="o">+</span> <span class="s2">". Проверьте, что это именно указанная исходная модель LiLa, "</span>
-            <span class="o">+</span> <span class="s2">"а не версия с другим окном или совмещёнными векторами. "</span>
-            <span class="o">+</span> <span class="s2">"Файлы не удалялись и не заменялись."</span>
+            <span class="sa">f</span><span class="s2">"Найдены файлы с неподходящей SHA-256 для </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2">: "</span>
+            <span class="o">+</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">invalid_files</span><span class="p">)</span>
+            <span class="o">+</span> <span class="s2">". Они не изменены. Проверьте название и версию модели."</span>
         <span class="p">)</span>
 
-    <span class="n">destination</span> <span class="o">=</span> <span class="n">MODEL_DIR</span> <span class="o">/</span> <span class="n">info</span><span class="p">[</span><span class="s2">"file"</span><span class="p">]</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">DOWNLOAD_MISSING_MODELS</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span>
-            <span class="sa">f</span><span class="s2">"Модель не найдена. Поместите </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'file'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (либо </span><span class="si">{</span><span class="n">original_name</span><span class="si">}</span><span class="s2">) "</span>
-            <span class="sa">f</span><span class="s2">"в </span><span class="si">{</span><span class="n">MODEL_DIR</span><span class="si">}</span><span class="s2"> или включите DOWNLOAD_MISSING_MODELS."</span>
-        <span class="p">)</span>
+    <span class="k">if</span> <span class="n">DOWNLOAD_MISSING_MODELS</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">download_model</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
 
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Локальной копии нет; загружается </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> в </span><span class="si">{</span><span class="n">destination</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-    <span class="n">temporary</span> <span class="o">=</span> <span class="kc">None</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="k">with</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span>
-            <span class="n">mode</span><span class="o">=</span><span class="s2">"wb"</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">".download_"</span><span class="p">,</span> <span class="n">suffix</span><span class="o">=</span><span class="s2">".tmp"</span><span class="p">,</span>
-            <span class="nb">dir</span><span class="o">=</span><span class="n">MODEL_DIR</span><span class="p">,</span> <span class="n">delete</span><span class="o">=</span><span class="kc">False</span>
-        <span class="p">)</span> <span class="k">as</span> <span class="n">output</span><span class="p">:</span>
-            <span class="n">temporary</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">output</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
-            <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="s2">"url"</span><span class="p">],</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span> <span class="k">as</span> <span class="n">response</span><span class="p">:</span>
-                <span class="n">shutil</span><span class="o">.</span><span class="n">copyfileobj</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="n">output</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">1024</span> <span class="o">*</span> <span class="mi">1024</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">file_sha256</span><span class="p">(</span><span class="n">temporary</span><span class="p">)</span> <span class="o">!=</span> <span class="n">info</span><span class="p">[</span><span class="s2">"sha256"</span><span class="p">]:</span>
-            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-                <span class="s2">"Скачанный файл не прошёл проверку SHA-256. "</span>
-                <span class="s2">"Возможно, источник изменил содержимое файла или загрузка была неполной."</span>
-            <span class="p">)</span>
-        <span class="n">temporary</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">destination</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">destination</span>
-    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
-            <span class="sa">f</span><span class="s2">"Не удалось получить корректный файл модели </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2">. "</span>
-            <span class="sa">f</span><span class="s2">"Можно вручную скачать его и поместить в </span><span class="si">{</span><span class="n">MODEL_DIR</span><span class="si">}</span><span class="s2">. Причина: </span><span class="si">{</span><span class="n">exc</span><span class="si">}</span><span class="s2">"</span>
-        <span class="p">)</span> <span class="kn">from</span><span class="w"> </span><span class="nn">exc</span>
-    <span class="k">finally</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">temporary</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">temporary</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="n">missing_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">"Локальная модель </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'label'</span><span class="p">]</span><span class="si">}</span><span class="s2"> не найдена. Ожидается файл "</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">original_name</span><span class="si">}</span><span class="s2"> или </span><span class="si">{</span><span class="n">info</span><span class="p">[</span><span class="s1">'file'</span><span class="p">]</span><span class="si">}</span><span class="s2"> в папке </span><span class="si">{</span><span class="n">MODEL_DIR</span><span class="si">}</span><span class="s2">. "</span>
+        <span class="s2">"Если модель сохранена в другом месте, создайте model_paths.json "</span>
+        <span class="s2">"по образцу model_paths.example.json в корне репозитория и впишите полный путь к файлу. "</span>
+        <span class="s2">"Автоматическая загрузка отключена, чтобы избежать тайм-аутов."</span>
+    <span class="p">)</span>
 
 
-<span class="n">MODELS</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">info</span> <span class="ow">in</span> <span class="n">MODELS_INFO</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="n">model_path</span> <span class="o">=</span> <span class="n">locate_or_download_model</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
-    <span class="n">MODELS</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">KeyedVectors</span><span class="o">.</span><span class="n">load_word2vec_format</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">model_path</span><span class="p">),</span> <span class="n">binary</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="c1"># Разрешаем расположение обеих моделей до чтения векторов.</span>
+<span class="n">model_files</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">locate_or_download_model</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">info</span><span class="p">)</span>
+               <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">info</span> <span class="ow">in</span> <span class="n">MODELS_INFO</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">MODELS</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">KeyedVectors</span><span class="o">.</span><span class="n">load_word2vec_format</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">model_files</span><span class="p">[</span><span class="n">name</span><span class="p">]),</span> <span class="n">binary</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+          <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">MODELS_INFO</span><span class="p">}</span>
 
 <span class="n">LABEL</span> <span class="o">=</span> <span class="p">{</span><span class="n">n</span><span class="p">:</span> <span class="n">MODELS_INFO</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s2">"label"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">MODELS</span><span class="p">}</span>
 <span class="n">SHARED</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">MODELS</span><span class="p">[</span><span class="s2">"classical"</span><span class="p">]</span><span class="o">.</span><span class="n">key_to_index</span><span class="p">)</span> <span class="o">&amp;</span> <span class="nb">set</span><span class="p">(</span><span class="n">MODELS</span><span class="p">[</span><span class="s2">"aquinas"</span><span class="p">]</span><span class="o">.</span><span class="n">key_to_index</span><span class="p">))</span>
