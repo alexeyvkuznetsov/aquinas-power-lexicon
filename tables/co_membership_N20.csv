@@ -1,0 +1,11 @@
+﻿,dominium,potestas,praelatio,iurisdictio,auctoritas,imperium,principatus,regimen,gubernatio,regnum
+dominium,50,0,8,0,0,0,0,0,1,0
+potestas,0,50,42,50,0,0,0,0,0,0
+praelatio,8,42,50,42,0,0,0,0,0,0
+iurisdictio,0,50,42,50,0,0,0,0,0,0
+auctoritas,0,0,0,0,50,0,0,0,0,0
+imperium,0,0,0,0,0,50,0,0,0,0
+principatus,0,0,0,0,0,0,50,50,40,9
+regimen,0,0,0,0,0,0,50,50,40,9
+gubernatio,1,0,0,0,0,0,40,40,50,0
+regnum,0,0,0,0,0,0,9,9,0,50

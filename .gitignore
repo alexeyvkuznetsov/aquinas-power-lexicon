@@ -1,15 +1,3 @@
-# Локальные модели: не размещать большие файлы LiLa в репозитории
-*.vec
-*.bin
-*.kv
-/data/models/*
-!/data/models/.gitkeep
-
-# Локальная среда и временные файлы
-.venv/
-venv/
-__pycache__/
+# Модели загружаются ноутбуками автоматически и в репозиторий не входят
+models/
 .ipynb_checkpoints/
-*.pyc
-.DS_Store
-Thumbs.db
