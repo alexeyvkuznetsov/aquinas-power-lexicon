@@ -1,0 +1,123 @@
+﻿Лемма,Частота,Целевая лемма,Найдена среди соседей целевых лемм
+absolutio,174,нет,iurisdictio
+aio,146,нет,auctoritas
+aperio,346,нет,regnum
+apostolicus,41,нет,auctoritas
+arbiter,12,нет,potestas
+archangelus,62,нет,principatus
+aristocratia,7,нет,"principatus, regimen, gubernatio, regnum"
+assertiuus,5,нет,auctoritas
+auctor,303,нет,auctoritas
+auctoritas,1363,да,–
+auctoritatiuus,5,нет,auctoritas
+celatio,5,нет,praelatio
+ceterum,14,нет,auctoritas
+ciuitas,478,нет,"regimen, regnum"
+clauis,389,нет,iurisdictio
+coerceo,34,нет,dominium
+conseruus,10,нет,dominium
+coordinatio,14,нет,gubernatio
+declaratio,6,нет,auctoritas
+degrado,27,нет,iurisdictio
+despoticus,10,нет,"dominium, imperium, principatus"
+diaconatus,5,нет,iurisdictio
+dominatio,55,нет,"dominium, principatus"
+dominatiuus,15,нет,principatus
+dominium,287,да,potestas
+dominor,199,нет,dominium
+ecclesia,2898,нет,potestas
+elicitiuus,16,нет,imperium
+episcopatus,80,нет,"potestas, praelatio"
+episcopus,635,нет,iurisdictio
+excommunicatio,203,нет,iurisdictio
+excommunico,230,нет,iurisdictio
+exequor,324,нет,imperium
+eximo,16,нет,potestas
+expositio,157,нет,auctoritas
+forum,133,нет,iurisdictio
+gubernatio,248,да,regimen
+gubernatiuus,7,нет,"regimen, gubernatio"
+gubernator,55,нет,gubernatio
+gubernatorius,14,нет,gubernatio
+guberno,349,нет,gubernatio
+iechonias,10,нет,regnum
+ierusalem,89,нет,regnum
+imperatiuus,20,нет,imperium
+imperitus,6,нет,imperium
+imperium,449,да,–
+impero,549,нет,imperium
+improbatio,6,нет,auctoritas
+induco,1891,нет,auctoritas
+indulgentia,234,нет,iurisdictio
+introeo,66,нет,regnum
+introitus,55,нет,regnum
+intromitto,13,нет,regnum
+inuincibilis,18,нет,potestas
+is,38949,нет,praelatio
+iudiciarius,91,нет,potestas
+iurisconsultus,5,нет,dominium
+iurisdictio,97,да,potestas
+laicus,116,нет,iurisdictio
+latrocinium,11,нет,dominium
+mercatio,7,нет,dominium
+michael,12,нет,principatus
+minister,814,нет,potestas
+motiuus,370,нет,imperium
+nutus,98,нет,imperium
+obedio,736,нет,imperium
+obiectio,373,нет,auctoritas
+officium,940,нет,praelatio
+optimas,5,нет,"principatus, regimen"
+ordinarius,32,нет,"potestas, praelatio, iurisdictio"
+ordinatio,435,нет,"potestas, praelatio, imperium, regimen, gubernatio"
+ordinator,20,нет,"regimen, gubernatio"
+parochialis,25,нет,iurisdictio
+patrimonium,14,нет,dominium
+persa,18,нет,regnum
+persuasibilis,5,нет,imperium
+plebeius,5,нет,praelatio
+possideo,262,нет,regnum
+possum,39485,нет,potestas
+potestas,2527,да,"dominium, iurisdictio, imperium"
+praefero,821,нет,praelatio
+praeficio,23,нет,"praelatio, regimen, gubernatio"
+praelatio,249,да,–
+praepono,99,нет,praelatio
+praesideo,56,нет,"principatus, gubernatio"
+primatus,18,нет,praelatio
+princeps,414,нет,principatus
+principatus,160,да,–
+principor,43,нет,principatus
+probatio,265,нет,auctoritas
+procuratio,10,нет,praelatio
+prouidentia,1247,нет,gubernatio
+prouidus,18,нет,gubernatio
+prouincia,20,нет,"principatus, regnum"
+prouisio,25,нет,gubernatio
+prouisor,40,нет,gubernatio
+rector,62,нет,regimen
+regalis,24,нет,"potestas, imperium, principatus, regimen, regnum"
+regimen,189,да,"principatus, gubernatio"
+regitiuus,29,нет,regimen
+regius,35,нет,"regimen, regnum"
+regnatiuus,23,нет,"principatus, regimen"
+regno,84,нет,regnum
+regnum,583,да,–
+resigno,6,нет,potestas
+rex,529,нет,regnum
+sacerdotalis,89,нет,potestas
+seruitium,79,нет,dominium
+seruitus,342,нет,dominium
+seruus,623,нет,dominium
+solutio,663,нет,auctoritas
+subauctoritas,6,нет,auctoritas
+subdiaconatus,7,нет,iurisdictio
+subdo,1426,нет,regimen
+subiaceo,363,нет,imperium
+subiectio,132,нет,praelatio
+tractator,9,нет,auctoritas
+tyrannicus,11,нет,"dominium, praelatio, principatus, regimen"
+uelatio,6,нет,praelatio
+uicarius,9,нет,iurisdictio
+uis,2126,нет,imperium
+usurpo,66,нет,dominium

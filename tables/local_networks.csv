@@ -1,0 +1,11 @@
+﻿Лемма,Шесть соседей первого уровня,Другие целевые леммы (уровень),Узлов,Рёбер
+dominium,"seruitus, seruus, dominor, coerceo, potestas, seruitium","potestas (1-й), iurisdictio (2-й)",24,28
+potestas,"iurisdictio, eximo, minister, dominium, ecclesia, possum","dominium (1-й), iurisdictio (1-й)",30,30
+praelatio,"celatio, subiectio, praefero, uelatio, plebeius, ordinatio",–,28,29
+iurisdictio,"degrado, excommunicatio, clauis, forum, episcopus, laicus",–,22,28
+auctoritas,"subauctoritas, auctoritatiuus, induco, assertiuus, solutio, apostolicus",–,29,30
+imperium,"impero, imperatiuus, obedio, despoticus, exequor, nutus",principatus (2-й),24,28
+principatus,"dominatio, principor, princeps, despoticus, prouincia, archangelus",imperium (2-й),22,27
+regimen,"praeficio, gubernatiuus, gubernatio, aristocratia, optimas, regitiuus",gubernatio (1-й),22,28
+gubernatio,"guberno, gubernatiuus, gubernator, gubernatorius, ordinator, prouisor",–,14,23
+regnum,"regno, introeo, regius, aristocratia, rex, aperio",regimen (2-й),24,29
