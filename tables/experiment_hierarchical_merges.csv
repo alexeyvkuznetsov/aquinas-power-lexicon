@@ -1,0 +1,10 @@
+﻿Шаг,Группа 1,Группа 2,Косинусное расстояние при объединении,Число лемм в объединении
+1,gubernatio,regimen,0.29450993099661793,2
+2,iurisdictio,potestas,0.33493655911322495,2
+3,principatus,praelatio,0.38818902295103697,2
+4,"gubernatio, regimen","principatus, praelatio",0.42962683344026453,4
+5,"iurisdictio, potestas",dominium,0.43368395109351576,3
+6,"gubernatio, regimen, principatus, praelatio","iurisdictio, potestas, dominium",0.4853551642078062,7
+7,"gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium",imperium,0.5034253206823218,8
+8,regnum,"gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium, imperium",0.5534800816161136,9
+9,auctoritas,"regnum, gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium, imperium",0.5817826355458307,10
