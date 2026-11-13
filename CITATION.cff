@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Если вы используете эти материалы, сошлитесь на них так, как указано ниже. После публикации статьи сюда будет добавлен блок preferred-citation с её выходными данными."
+type: software
+title: "Господство, полномочия, правление: лексика власти у Фомы Аквинского. Код, таблицы и дополнительные материалы"
+abstract: "Код, таблицы результатов, рисунки, приложение и подборка латинских контекстов к дистрибутивно-семантическому и сетевому анализу десяти латинских обозначений власти у Фомы Аквинского (dominium, potestas, praelatio, iurisdictio, regimen, gubernatio, principatus, regnum, auctoritas, imperium) на модели LiLa Opera Maiora."
+authors:
+  - family-names: "Kuznetsov"
+    given-names: "Alexey V."
+version: "1.0.0"
+# date-released: ГГГГ-ММ-ДД   # указать дату выпуска v1.0
+# doi: 10.5281/zenodo.XXXXXXX # указать DOI архивной копии после регистрации в Zenodo
+repository-code: "https://github.com/alexeyvkuznetsov/aquinas-power-lexicon"
+license: MIT
+keywords:
+  - Thomas Aquinas
+  - Latin
+  - word embeddings
+  - distributional semantics
+  - network analysis
+  - digital humanities
+references:
+  - type: data
+    title: "Lemma Embeddings for Latin"
+    authors:
+      - family-names: "Sprugnoli"
+        given-names: "Rachele"
+      - family-names: "Passarotti"
+        given-names: "Marco"
+      - family-names: "Moretti"
+        given-names: "Giovanni"
+    url: "http://hdl.handle.net/20.500.11752/OPEN-996"

@@ -1,8 +1,8 @@
 # Господство, полномочия, правление: лексика власти у Фомы Аквинского
 
-Код, таблицы и рисунки к статье «Господство, полномочия, правление: лексика власти у Фомы Аквинского». Библиографические сведения и DOI будут добавлены после публикации.
+Код, таблицы, рисунки, приложение и подборка контекстов к статье А. В. Кузнецова «Господство, полномочия, правление: лексика власти у Фомы Аквинского». Сведения для цитирования — в разделе «Как цитировать» и в файле `CITATION.cff`.
 
-*Code, tables and figures for a distributional-semantic and network analysis of ten Latin terms of power in Thomas Aquinas, based on the LiLa* Opera Maiora *lemma embeddings. Documentation and the notebook are in Russian.*
+*Code, tables, figures, the appendix and a selection of Latin contexts for a distributional-semantic and network analysis of ten Latin terms of power in Thomas Aquinas, based on the LiLa* Opera Maiora *lemma embeddings. Documentation and the notebook are in Russian.*
 
 ## Задача
 
@@ -17,7 +17,7 @@
 | Основная сеть | ребро проводится при косинусном сходстве не ниже порога; порог 0,59 — наибольший, при котором сеть связна; 715 рёбер |
 | Сообщества | алгоритм Лейдена (взвешенная модулярность), 50 запусков; основное разбиение — медоид серии: 7 сообществ, модулярность 0,4945 |
 | Локальные сети | схема 6–4: шесть ближайших соседей леммы и по четыре соседа каждого из них |
-| Устойчивость | 10 и 20 соседей вместо 15 (порог определяется заново, по 50 запусков); повышение порога до 0,60 |
+| Устойчивость | 10 и 20 соседей вместо 15 (порог определяется заново, по 50 запусков). Отдельно проверено повышение порога основной сети до 0,60: от сети отделяется одна лемма (*possideo*), все целевые леммы остаются в главной компоненте |
 | Сеть ближайших соседей | на тех же 122 леммах каждая соединена с восемью ближайшими соседями; 659 рёбер |
 | Исключение редких лемм | из основной сети удалены 20 нецелевых лемм с частотой ниже 10; остаются 102 леммы и 506 рёбер |
 | Иерархическая кластеризация | десять целевых векторов, косинусное расстояние, средняя связь |
@@ -27,10 +27,15 @@
 | Путь | Содержание |
 | --- | --- |
 | `notebooks/01_main_analysis.ipynb` | весь расчёт: от загрузки модели до таблиц и рисунков |
+| `notebooks/02_classical_background.ipynb` | вспомогательный расчёт: ближайшие соседи тех же десяти лемм в моделях *Opera Latina* и *Opera Maiora*; в статье не используется |
+| `html/` | те же тетради с результатами выполнения в формате HTML, для чтения без запуска |
 | `tables/` | таблицы результатов (CSV, UTF-8) |
 | `figures/` | рисунки (PNG, 300 dpi) |
+| `appendix/appendix.pdf` | приложение к статье: сводные таблицы П1–П7 и рисунки П1–П5 |
+| `contexts/` | контексты употребления обозначений власти К1–К54: места в сочинениях Фомы, латинские выдержки по *Corpus Thomisticum* и рабочие переводы (`contexts.md`, `contexts.csv`) |
 | `models/` | каталог для файла модели; сама модель в репозитории не хранится |
 | `requirements.txt` | зависимости Python |
+| `CITATION.cff`, `.zenodo.json` | сведения для цитирования и архивирования |
 
 ### Таблицы
 
@@ -73,7 +78,36 @@
 | `checks/check_co_membership.png` | матрицы совместной принадлежности в трёх сетях |
 | `checks/check_dendrogram.png` | дендрограмма десяти целевых лемм |
 
-Номера рисунков и таблиц в статье и приложении задаются текстом статьи и с именами файлов не совпадают.
+### Соответствие таблиц и рисунков статьи и приложения файлам
+
+Номера таблиц и рисунков задаются текстом статьи и с именами файлов не совпадают.
+
+| В статье | Файлы |
+| --- | --- |
+| Таблица 1 | `tables/communities_medoid.csv` |
+| Таблица 2 | `tables/robustness_pairs.csv` |
+| Таблица 3 | `tables/check_target_pairs.csv` |
+| Таблица 4 | `tables/top15_neighbors.csv` |
+| Рисунок 1 | `figures/figure_1_network.png` |
+| Рисунок 2 | `figures/figure_2_similarity_matrix.png` |
+| Рисунки 3–5 | `figures/local_networks/local_6_4_dominium.png`, `…_potestas.png`, `…_principatus.png` |
+
+| В приложении | Файлы |
+| --- | --- |
+| Таблица П1 | состав корпуса по опубликованной сводке *Index Thomisticus* (в расчёте не используется) |
+| Таблица П2 | частоты: `tables/check_target_communities.csv` |
+| Таблица П3 | `tables/pairwise_similarity.csv` |
+| Таблица П4 | `tables/communities_medoid.csv` |
+| Таблица П5 | `tables/robustness_networks.csv`, `tables/check_networks.csv` |
+| Таблица П6 | `tables/robustness_pairs.csv`, `tables/check_target_pairs.csv` |
+| Таблица П7 | `tables/check_lowfreq_communities.csv`, `tables/check_lowfreq_removed.csv`, `tables/check_lowfreq_praelatio.csv` |
+| Рисунок П1 | `figures/cosine_distribution.png`, `figures/threshold_selection.png` |
+| Рисунок П2 | `figures/robustness_co_membership_N10.png`, `…_N15.png`, `…_N20.png` |
+| Рисунок П3 | `figures/checks/check_dendrogram.png` |
+| Рисунок П4 | `figures/communities/community_*.png` |
+| Рисунок П5 | `figures/local_networks/local_6_4_gubernatio.png`, `…_regnum.png`, `…_auctoritas.png`, `…_imperium.png` |
+
+В приложение вошли сводные таблицы и составные рисунки. Полные таблицы по всем 45 парам целевых лемм, пятнадцать ближайших соседей каждой леммы, состав и рисунки всех десяти локальных сетей доступны только в `tables/` и `figures/`.
 
 ## Запуск
 
@@ -90,7 +124,7 @@ jupyter lab
 
 ### Модель
 
-Ноутбук ищет файл `models/opera-maiora-lemmas_skip_100.bin`. Если файла нет, он загружается с сайта проекта LiLa (около 770 МБ): <https://embeddings.lila-erc.eu/samples/download/OperaMaiora/opera-maiora-lemmas_skip_100.bin>. После чтения проверяется контрольная сумма SHA-256:
+Ноутбук ищет файл `models/opera-maiora-lemmas_skip_100.bin`. Каталог `models/` в репозитории пуст: файлы моделей исключены в `.gitignore`. Если файла нет, он загружается с сайта проекта LiLa (около 770 МБ): <https://embeddings.lila-erc.eu/samples/download/OperaMaiora/opera-maiora-lemmas_skip_100.bin>. После чтения проверяется контрольная сумма SHA-256:
 
 ```text
 4f973ddb57a9a382b13345c72269c628f10bae1b4b279f26dca9168697b44f5c
@@ -106,7 +140,15 @@ jupyter lab
 - *Opera Maiora* объединяет сочинения разного времени и тематики. Трактат «О царстве» и комментарий к «Политике» в корпус не входят.
 - Порог, число ближайших соседей и граница частоты выбраны как рабочие ориентиры, а не как обоснованные критерии.
 
-Сопоставление результатов с текстами Фомы и историографией дано в статье и приложении к ней.
+Сопоставление результатов с текстами Фомы и историографией дано в статье; использованные при этом места собраны в `contexts/`.
+
+## Как цитировать
+
+До выхода статьи:
+
+> Кузнецов А. В. Господство, полномочия, правление: лексика власти у Фомы Аквинского : код, таблицы и дополнительные материалы. Версия 1.0. 2026. URL: https://github.com/alexeyvkuznetsov/aquinas-power-lexicon
+
+После публикации статьи и архивирования выпуска здесь будут указаны выходные данные статьи и DOI архивной копии; те же сведения вносятся в `CITATION.cff`.
 
 ## Источники и лицензии
 

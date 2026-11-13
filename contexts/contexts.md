@@ -1,0 +1,365 @@
+# Контексты употребления обозначений власти у Фомы Аквинского (К1–К54)
+
+Дополнительный материал к статье «Господство, полномочия, правление: лексика власти у Фомы Аквинского».
+
+Подборка содержит определения Фомы, места, обсуждавшиеся в историографии, примеры, связанные с ближайшими соседями целевых лемм в модели, и контрпримеры, найденные целенаправленным поиском. Она служит исторической интерпретации результатов модели и не предназначена для подсчёта долей отдельных значений в корпусе.
+
+- Латинский текст приводится по изданию *Corpus Thomisticum* (ed. E. Alarcón, Pamplona, 2000–; <https://www.corpusthomisticum.org>) с сохранением его орфографии. Толкования текста «Сентенций» (*expositio textus*) обозначены так, как они размещены в этом издании, — после последнего артикула дистинкции.
+- Сокращённые фрагменты отмечены многоточиями; некоторые пункты объединяют несколько свидетельств.
+- Переводы рабочие и не представляют независимое издание текста.
+- Нумерация К1–К54 сохранена по первоначальной подборке. При переносе из приложения к статье выдержки и переводы не менялись; сплошная повторная сверка каждого отрывка с изданием при переносе не проводилась.
+- Те же данные в табличном виде: `contexts.csv` (UTF-8; поля: `id`, `раздел`, `место`, `латинский_текст`, `перевод`).
+
+## I. Различение начальствования «к правлению» и «к господству»
+
+### К1. In II Sent. d.44 q.1 a.3: «Utrum in statu innocentiae fuisset dominium»
+
+> *Utrum in statu innocentiae fuisset dominium. … Videtur quod in statu naturae integrae praelatio, seu dominium, non fuisset. … [arg. 3] Praeterea, dominium sine servitute esse non potest. Sed Augustinus et alii sancti communiter dicunt, quod servitus pro peccato est introducta. Ergo et dominium, seu praelatio, ante peccatum non fuisset. … [s. c. 1] Sed contra, illud quod est dignitatis, in natura integra multo nobilius fuisset. Sed dominium et praelatio ad dignitatem pertinent. … [s. c. 2] Sed in Angelis est unus ordo qui dominationum vocatur, et etiam alii ad praelationem pertinentes, ut principatus, potestates, et Archangeli. Ergo et in statu naturae humanae ante peccatum fuisset praelatio.*
+>
+> *Respondeo dicendum, quod duplex est praelationis modus: unus quidem ad regimen ordinatus; alius autem ad dominandum. Domini autem ad servum, ut in 8 Ethic. philosophus dicit, est praelatio sicut tyranni ad subditum. Differt autem tyrannus a rege, ut ibidem philosophus dicit, quia rex ordinat praelationem suam ad bonum gentis cui praeest, propter ejus utilitatem statuta et legem faciens: tyrannus autem praelationem suam ordinat ad utilitatem propriam; et ideo duplex modus praelationis supradictus in hoc differt, quia in primo intenditur bonum subditorum, in secundo proprium bonum praesidentis; et ideo secundus modus praelationis in natura integra esse non potuisset, nisi respectu eorum quae ad hominem tamquam ad finem ordinantur. Haec autem sunt creaturae irrationales, quibus omnibus ad suum commodum praefuisset multo amplius quam nunc. Sed creatura rationalis, quantum est de se, non ordinatur ut ad finem ad aliam, ut homo ad hominem; sed si hoc fiat, non erit nisi inquantum homo propter peccatum irrationalibus creaturis comparatur; unde etiam philosophus ibidem servum comparat organo, dicens, quod servus est organum animatum, et organum est servus inanimatus. Et ideo talis praelatio hominis ad hominem ante peccatum non fuisset; sed prima praelatio, quae ordinatur ad utilitatem subditorum, fuisset ibi quantum ad aliquem usum, non quantum ad omnes. Est enim praelatio, ad dirigendum subditos in his quae agenda sunt, et ad supplendum defectus, ut quod populi a regibus defendantur; et iterum ad corrigendum mores, dum mali puniuntur, et coacte ad actus virtutis inducuntur. Sed quia ante peccatum nil fuisset quod homini nocere posset, nec etiam voluntas alicujus bono contradiceret; ideo quantum ad duos ultimos usus praelatio in statu innocentiae non fuisset; sed quantum ad primum usum solum, qui scilicet est dirigere in agendis vel in sciendis, secundum quod unus alio majori munere sapientiae et majori lumine intellectus praeditus fuisset.*
+>
+> «Было ли бы в состоянии невинности господство? … Представляется, что в состоянии неповреждённой природы не было бы начальствования, или господства. … [3] Далее, господство не может быть без рабства. Но Августин и другие святые единодушно говорят, что рабство введено за грех. Следовательно, и господства, или начальствования, до греха не было бы. … [s. c. 1] Но против: то, что относится к достоинству, в неповреждённой природе было бы гораздо благороднее. Господство же и начальствование относятся к достоинству. … [s. c. 2] У ангелов есть чин, который называется Господствами, и другие, относящиеся к начальствованию, – Начала, Власти и Архангелы. Следовательно, и в человеческой природе до греха было бы начальствование».
+>
+> «Отвечаю: есть два вида начальствования: один направлен к управлению, другой – к господству. Начальствование господина над рабом, как говорит Философ в VIII книге „Этики“, подобно начальствованию тирана над подданным. Тиран же, как говорит там же Философ, отличается от царя тем, что царь направляет своё начальствование к благу народа, которым правит, и ради его пользы даёт постановления и закон, а тиран направляет своё начальствование к собственной пользе. Поэтому два названных вида различаются тем, что в первом имеется в виду благо подвластных, во втором – собственное благо начальствующего. Второй вид в неповреждённой природе мог бы существовать лишь в отношении того, что направлено к человеку как к цели, то есть неразумных тварей; над ними он начальствовал бы для своей пользы гораздо полнее, чем теперь. Разумная же тварь сама по себе не направлена к другой как к цели, как человек к человеку. Если же это происходит, то лишь постольку, поскольку человек из-за греха уподобляется неразумным тварям; поэтому Философ там же сравнивает раба с орудием, говоря, что раб – одушевлённое орудие, а орудие – неодушевлённый раб. Такого начальствования человека над человеком до греха не было бы. Первое же начальствование, направленное к пользе подвластных, было бы и тогда, но лишь в одном применении, а не во всех. Ведь начальствование существует, чтобы направлять подвластных в том, что следует делать; чтобы восполнять недостатки (так, народы защищаются царями); и чтобы исправлять нравы, когда злые наказываются и принуждением побуждаются к добродетельным действиям. Но до греха ничто не могло бы повредить человеку и ничья воля не противилась бы добру. Поэтому в двух последних применениях начальствования в состоянии невинности не было бы, а было бы только в первом – в руководстве тем, что делать или знать, поскольку один был бы наделён большим даром мудрости и большим светом разума, чем другой».
+
+### К2. In II Sent. d.44 q.1 a.3 ad 1 и ad 2
+
+> *Ad primum ergo dicendum, quod natura omnes homines aequales in libertate fecit, non autem in perfectionibus naturalibus: liberum enim, secundum philosophum in 1 Metaphysic., est quod sui causa est. Unus enim homo ex natura sua non ordinatur ad alterum sicut ad finem; et ideo secundus modus praelationis non fuisset, qui libertatem subditis tollit; sed primus modus esse posset, qui nullum praejudicium libertati affert, dum subditi ad bonum praepositi non ordinantur, sed e converso regimen praepositi ad bonum subditorum; unde non incongrue se eorum servos appellant. Ad secundum dicendum, quod auctoritas illa loquitur quantum ad secundum modum praelationis.*
+>
+> «На первое следует сказать: природа сделала всех людей равными в свободе, но не в природных совершенствах; ведь свободно, по Философу в I книге „Метафизики“, то, что есть причина самого себя. Один человек по природе не направлен к другому как к цели. Поэтому второго вида начальствования, отнимающего у подвластных свободу, не было бы. Первый же вид мог быть, так как он не ущемляет свободы: не подвластные направлены к благу начальствующего, а, напротив, управление начальствующего – к благу подвластных. Потому [начальствующие] не без основания называют себя их слугами. На второе следует сказать: тот авторитет [то есть приведённое место Августина] говорит о втором виде начальствования».
+
+### К3. ST I q.96 a.4 co.
+
+> *Respondeo dicendum quod dominium accipitur dupliciter. Uno modo, secundum quod opponitur servituti, et sic dominus dicitur cui aliquis subditur ut servus. Alio modo accipitur dominium, secundum quod communiter refertur ad subiectum qualitercumque, et sic etiam ille qui habet officium gubernandi et dirigendi liberos, dominus dici potest.*
+>
+> «Отвечаю: господство понимается двояко. В одном смысле – как противоположное рабству; так господином называется тот, кому кто-либо подчинён как раб. В другом смысле господство понимается как отношение к подчинённому вообще, каким бы оно ни было; так господином может называться и тот, на ком лежит обязанность управлять свободными и руководить ими».
+
+## II. Dominium: власть над лицами и вещами
+
+### К4. In I Sent. d.2 q.1 a.5, expos. textus (Фома приводит Боэция и Дионисия)
+
+> *Ad secundum dicendum, quod relationes fundantur super aliquid quod est causa ipsarum in subjecto, sicut aequalitas supra quantitatem, et dominium supra potestatem. Unde dicit Boetius, quod dominium est potestas coercendi subditos; et Dionysius dicit, quod dominium est non pejorum, idest subditorum, excessus tantum, sed bonorum et pulchriorum omnimoda et perfecta possessio; vera et non cadere valens fortitudo.*
+>
+> «На второе следует сказать: отношения основываются на чём-то, что является их причиной в субъекте, – как равенство на количестве, а господство на власти. Поэтому Боэций говорит, что господство есть власть принуждать подвластных. А Дионисий говорит, что господство есть не только превосходство над худшими, то есть подвластными, но всецелое и совершенное обладание благим и прекрасным, истинная и непоколебимая крепость».
+
+### К5. De potentia q.7 a.10 ad 4 (Амвросий и Боэций)
+
+> *Unde Ambrosius dicit, quod hoc nomen, dominus, nomen est potestatis; et Boetius dicit, quod dominium est potestas quaedam qua servus coercetur.*
+>
+> «Поэтому Амвросий говорит, что это имя, „Господь“, есть имя власти; а Боэций говорит, что господство есть некая власть, которой принуждается раб».
+
+### К6. In II Sent. d.44 q.2 a.2 co.
+
+> *Sed secundus defectus impedit jus praelationis: qui enim per violentiam dominium surripit non efficitur vere praelatus vel dominus; et ideo cum facultas adest, potest aliquis tale dominium repellere: nisi forte postmodum dominus verus effectus sit vel per consensum subditorum, vel per auctoritatem superioris.*
+>
+> «Второй же недостаток препятствует праву начальствования: кто похищает господство насилием, не становится истинным начальником или господином. Поэтому, когда есть возможность, такое господство можно отразить, – разве что впоследствии он станет истинным господином по согласию подвластных или по авторитету вышестоящего».
+
+### К7. SCG III c.81 n.6
+
+> *Sicut autem in operibus unius hominis ex hoc inordinatio provenit quod intellectus sensualem virtutem sequitur; sensualis vero virtus propter corporis indispositionem trahitur ad corporis motum, ut in claudicantibus apparet: ita et in regimine humano inordinatio provenit ex eo quod non propter intellectus praeminentiam aliquis praeest, sed vel robore corporali dominium sibi usurpat, vel propter sensualem affectionem aliquis ad regendum praeficitur.*
+>
+> «Как в действиях одного человека беспорядок происходит оттого, что разум следует чувственной силе, а чувственная сила из-за нерасположенности тела увлекается движением тела, как видно у хромающих, так и в человеческом правлении беспорядок происходит оттого, что кто-то начальствует не по превосходству разума, но либо присваивает себе господство телесной силой, либо поставлен править по чувственной привязанности».
+
+### К8. ST II–II q.12 a.2 co.
+
+> *Respondeo dicendum quod, sicut supra dictum est, infidelitas secundum seipsam non repugnat dominio, eo quod dominium introductum est de iure gentium, quod est ius humanum; distinctio autem fidelium et infidelium est secundum ius divinum, per quod non tollitur ius humanum.*
+>
+> «Отвечаю: как сказано выше, неверие само по себе не противоречит господству, поскольку господство введено правом народов, которое есть право человеческое. Различие же верных и неверных – по праву божественному, которым право человеческое не упраздняется».
+
+### К9. ST II–II q.10 a.10 co.
+
+> *Ius autem divinum, quod est ex gratia, non tollit ius humanum, quod est ex naturali ratione. Et ideo distinctio fidelium et infidelium, secundum se considerata, non tollit dominium et praelationem infidelium supra fideles. Potest tamen iuste per sententiam vel ordinationem Ecclesiae, auctoritatem Dei habentis, tale ius dominii vel praelationis tolli, quia infideles merito suae infidelitatis merentur potestatem amittere super fideles, qui transferuntur in filios Dei sed hoc quidem Ecclesia quandoque facit, quandoque autem non facit.*
+>
+> «Божественное право, которое от благодати, не упраздняет права человеческого, которое от естественного разума. Поэтому различие верных и неверных само по себе не упраздняет господства и начальствования неверных над верными. Однако такое право господства или начальствования может быть справедливо отнято приговором или распоряжением Церкви, имеющей авторитет Бога: неверные за своё неверие заслуживают утратить власть над верными, переходящими в сыновей Божиих. Но это Церковь иногда делает, а иногда нет».
+
+### К10. ST II–II q.66 a.1 co.
+
+> *Alio modo, quantum ad usum ipsius rei. Et sic habet homo naturale dominium exteriorum rerum, quia per rationem et voluntatem potest uti rebus exterioribus ad suam utilitatem, quasi propter se factis, semper enim imperfectiora sunt propter perfectiora, ut supra habitum est.*
+>
+> «В другом отношении – в отношении пользования самой вещью. Так человек имеет естественное господство над внешними вещами, ибо разумом и волей может пользоваться ими для своей пользы, как созданными ради него: ведь несовершенное всегда существует ради более совершенного, как было показано выше».
+
+### К11. ST II–II q.62 a.1 co.
+
+> *Respondeo dicendum quod restituere nihil aliud esse videtur quam iterato aliquem statuere in possessionem vel dominium rei suae.*
+>
+> «Отвечаю: возмещать, по-видимому, есть не что иное, как вновь ввести кого-либо во владение или господство над его вещью».
+
+### К12. ST I q.103 a.5 ad 2
+
+> *Quaedam enim secundum suam naturam sunt per se agentia, tanquam habentia dominium sui actus, et ista gubernantur a Deo non solum per hoc quod moventur ab ipso Deo in eis interius operante, sed etiam per hoc quod ab eo inducuntur ad bonum et retrahuntur a malo per praecepta et prohibitiones, praemia et poenas.*
+>
+> «Некоторые [существа] по своей природе действуют сами по себе, как имеющие господство над своим действием. Ими Бог управляет не только тем, что движет их, действуя в них изнутри, но и тем, что побуждает их к добру и удерживает от зла заповедями и запретами, наградами и наказаниями».
+
+### К13. ST I–II q.1 a.1 co.
+
+> *Est autem homo dominus suorum actuum per rationem et voluntatem, unde et liberum arbitrium esse dicitur facultas voluntatis et rationis. Illae ergo actiones proprie humanae dicuntur, quae ex voluntate deliberata procedunt.*
+>
+> «Человек же – господин своих действий через разум и волю; поэтому и свободное решение называется способностью воли и разума. Собственно человеческими называются те действия, которые происходят из обдуманной воли».
+
+### К14. In IV Sent. d.48 q.1 a.1: «Utrum Christus in forma servi sit judicaturus»
+
+> *[co.] Respondeo dicendum, quod judicium aliquod dominium in judicando requirit; unde Rom. 14, 4: tu quis es qui judicas alienum servum?*
+>
+> *[ad 1] Ad primum ergo dicendum, quod in Christo secundum divinam naturam est auctoritas dominii respectu universalis creaturae ex jure creationis; sed in ipso est auctoritas dominii quam per passionem promeruit, et est quasi auctoritas secundaria et acquisita; sed prima est naturalis et aeterna.*
+>
+> «Будет ли Христос судить в образе раба?» – «Отвечаю: суд требует в судящем некоего господства; отсюда Рим 14:4: „Кто ты, судящий чужого раба?“» – «На первое: во Христе по божественной природе есть авторитет господства в отношении всякого творения по праву творения. Но в нём есть и авторитет господства, который он заслужил страданием; это как бы вторичный и приобретённый авторитет, первый же – естественный и вечный».
+
+### К15. ST III q.42 a.1 co.
+
+> *Quarto, quia Christus per crucis victoriam meruit potestatem et dominium super gentes.*
+>
+> «В-четвёртых, потому что Христос победой креста заслужил власть и господство над народами».
+
+## III. Власть служителей Церкви: поиск контрпримеров
+
+### К16. ST II–II q.185 a.7 co. (начало ответа)
+
+> *Respondeo dicendum quod aliter est dicendum de propriis bonis, quae episcopi possidere possunt, et de bonis ecclesiasticis. Nam propriorum bonorum verum dominium habent. Unde ex ipsa rerum conditione non obligantur ut eas aliis conferant, sed possunt vel sibi retinere, vel aliis pro libitu elargiri. Possunt tamen in earum dispensatione peccare… Non tamen tenetur ad restitutionem, quia huiusmodi res sunt eius dominio deputatae. Sed ecclesiasticorum bonorum sunt dispensatores vel procuratores, dicit enim Augustinus, ad Bonifacium, si privatum possidemus quod nobis sufficiat, non illa nostra sunt, sed illorum quorum procurationem gerimus, non proprietatem nobis usurpatione damnabili vindicemus. Ad dispensatorem autem requiritur bona fides, secundum illud I ad Cor. IV, hic iam quaeritur inter dispensatores ut fidelis quis inveniatur.*
+>
+> «Отвечаю: следует говорить по-разному о собственных имуществах, которыми епископы могут владеть, и о церковных. Над собственными имуществами они имеют истинное господство. Поэтому по самому положению вещей они не обязаны отдавать их другим, но могут оставить себе или раздать другим по своему усмотрению. Впрочем, в распоряжении ими они могут грешить… Однако возмещать [епископ] не обязан, ибо такие вещи предназначены его господству. Церковными же имуществами они распоряжаются как распорядители или управители (dispensatores vel procuratores); ведь Августин говорит к Бонифацию: „Если мы владеем частным, которого нам достаточно, то [церковное] не наше, а тех, о ком мы печёмся; не будем же присваивать себе собственность предосудительным захватом“. От распорядителя же требуется добросовестность, по слову 1 Кор 4: „От распорядителей требуется, чтобы каждый оказался верным“».
+
+### К17. ST II–II q.62 a.5 ad 5
+
+> *Alio modo, si rem Ecclesiae suae custodiae deputatam in alterius dominium transferat, puta consanguinei vel amici.*
+>
+> «Иначе – если вещь своей Церкви, вверенную его попечению, он передаёт в господство другого, например родственника или друга».
+
+### К18. In IV Sent. d.19 q.1 a.1 qc.3 ad 4 (Фома приводит Аристотеля)
+
+> *Ad quartum dicendum, quod mulier, secundum apostolum, est in statu subjectionis; et ideo ipsa non potest habere aliquam jurisdictionem spiritualem; quia, etiam secundum philosophum in 8 Ethic., corruptio urbanitatis est, quando ad mulierem pervenit dominium; unde mulier non habet neque clavem ordinis, nec clavem jurisdictionis.*
+>
+> «На четвёртое: женщина, по Апостолу, находится в состоянии подчинения, поэтому не может иметь никакой духовной юрисдикции. Ведь и по Философу в VIII книге „Этики“ гибель гражданского порядка наступает, когда господство переходит к женщине. Поэтому женщина не имеет ни ключа сана, ни ключа юрисдикции».
+
+### К19. ST II–II q.39 a.3 co.
+
+> *Respondeo dicendum quod duplex est spiritualis potestas, una quidem sacramentalis; alia iurisdictionalis. Sacramentalis quidem potestas est quae per aliquam consecrationem confertur.*
+>
+> «Отвечаю: духовная власть двояка: одна – сакраментальная, другая – юрисдикционная. Сакраментальная власть – та, что сообщается через некое посвящение».
+
+### К20. In IV Sent. d.18 q.1 a.1 qc.2 ad 2
+
+> *Ad secundum dicendum, quod omnis potestas spiritualis datur cum aliqua consecratione; et ideo clavis cum ordine datur; sed executio clavis indiget materia debita, quae est plebs subjecta per jurisdictionem; et ideo antequam jurisdictionem habeat, habet claves, sed non habet actum clavium: et quia clavis per actum definitur, ideo in definitione clavis ponitur aliquid ad jurisdictionem pertinens.*
+>
+> «На второе: всякая духовная власть даётся с неким посвящением, поэтому ключ даётся вместе с саном. Но осуществление ключа нуждается в должной материи, каковой является народ, подчинённый через юрисдикцию. Поэтому, прежде чем [священник] получит юрисдикцию, он имеет ключи, но не имеет действия ключей; а поскольку ключ определяется через действие, в определение ключа включается нечто, относящееся к юрисдикции».
+
+## IV. Potestas
+
+### К21. In IV Sent. d.24 q.1 a.1 qc.2 ad 3
+
+> *Ad tertium dicendum, quod in Baptismo datur quaedam potentia spiritualis ad recipiendum, et ita quodammodo passiva: potestas autem proprie nominat potentiam activam cum aliqua praeeminentia; et ideo haec definitio non convenit Baptismo.*
+>
+> «На третье: в крещении даётся некая духовная способность к принятию, и потому некоторым образом пассивная. Власть же в собственном смысле означает активную способность с некоторым превосходством; поэтому это определение к крещению не подходит».
+
+### К22. In II Sent. d.44 q.2 a.3, expos. textus, ad 4 (ответ на четвёртое сомнение при толковании текста)
+
+> [Сомнение] Praeterea, potestas spiritualis est altior quam saecularis. Si ergo majori potestati magis est obediendum, praelatus spiritualis semper absolvere poterit a praecepto potestatis saecularis: quod est falsum.
+>
+> [Ответ] Ad quartum dicendum, quod potestas spiritualis et saecularis, utraque deducitur a potestate divina; et ideo intantum saecularis potestas est sub spirituali, inquantum est ei a Deo supposita, scilicet in his quae ad salutem animae pertinent; et ideo in his magis est obediendum potestati spirituali quam saeculari. In his autem quae ad bonum civile pertinent, est magis obediendum potestati saeculari quam spirituali, secundum illud Matth. 22, 21: reddite quae sunt Caesaris Caesari.
+>
+> «Далее, духовная власть выше светской. Если же большей власти следует больше повиноваться, то духовный прелат всегда мог бы освободить от предписания светской власти, – что ложно». – «На четвёртое: власть духовная и светская обе происходят от власти божественной. Поэтому светская власть подчинена духовной настолько, насколько Бог поставил её под духовную, а именно в том, что относится к спасению души; в этом следует более повиноваться власти духовной, чем светской. В том же, что относится к гражданскому благу, следует более повиноваться власти светской, чем духовной, по слову Мф 22:21: „Отдавайте кесарево кесарю“».
+
+### К23. ST I–II q.105 a.1 ad 2
+
+> *Ad secundum dicendum quod regnum est optimum regimen populi, si non corrumpatur. Sed propter magnam potestatem quae regi conceditur, de facili regnum degenerat in tyrannidem, nisi sit perfecta virtus eius cui talis potestas conceditur, quia non est nisi virtuosi bene ferre bonas fortunas, ut philosophus dicit, in IV Ethic.*
+>
+> «На второе: царство – наилучшее правление народом, если оно не искажается. Но из-за великой власти, предоставляемой царю, царство легко вырождается в тиранию, если только тот, кому дана такая власть, не обладает совершенной добродетелью; ведь только добродетельный может хорошо переносить удачу, как говорит Философ в IV книге „Этики“».
+
+### К24. ST I–II q.104 a.3 ad 2
+
+> *Ad secundum dicendum quod praecepta iudicialia ab hominibus instituta habent perpetuam obligationem, manente illo statu regiminis. Sed si civitas vel gens ad aliud regimen deveniat, oportet leges mutari. Non enim eaedem leges conveniunt in democratia, quae est potestas populi, et in oligarchia, quae est potestas divitum; ut patet per philosophum, in sua politica.*
+>
+> «На второе: судебные предписания, установленные людьми, обязывают постоянно, пока сохраняется данный строй правления. Но если город или народ переходит к другому правлению, законы должны измениться. Ведь не одни и те же законы подходят демократии, которая есть власть народа, и олигархии, которая есть власть богатых, как явствует из „Политики“ Философа».
+
+### К25. ST II–II q.50 a.3 ad 3
+
+> *Ad tertium dicendum quod pater in domo habet quandam similitudinem regii principatus, ut dicitur in VIII Ethic., non tamen habet perfectam potestatem regiminis sicut rex. Et ideo non ponitur separatim paterna species prudentiae, sicut regnativa.*
+>
+> «На третье: отец в доме имеет некое подобие царского начальствования, как сказано в VIII книге „Этики“, однако не имеет совершенной власти правления, как царь. Поэтому отцовская разновидность благоразумия не выделяется отдельно, как царская».
+
+### К26. ST III q.8 a.1 ad 2
+
+> *Et ideo paterfamilias, qui est caput multitudinis domesticae, habet super se caput rectorem civitatis.*
+>
+> «Поэтому отец семейства, глава домашнего множества, имеет над собой главу – правителя города».
+
+## V. Auctoritas
+
+### К27. ST I q.33 a.4 ad 1
+
+> *Ad primum ergo dicendum quod quidam dicunt quod innascibilitas, quam significat hoc nomen ingenitus, secundum quod est proprietas patris, non dicitur tantum negative; sed importat vel utrumque simul, scilicet quod pater a nullo est, et quod est principium aliorum; vel importat universalem auctoritatem; vel etiam fontalem plenitudinem. Sed hoc non videtur verum. Quia sic innascibilitas non esset alia proprietas a paternitate et spiratione, sed includeret eas, sicut includitur proprium in communi, nam fontalitas et auctoritas nihil aliud significant in divinis quam principium originis.*
+>
+> «На первое: некоторые говорят, что нерождённость, обозначаемая именем „нерождённый“, поскольку она есть свойство Отца, высказывается не только отрицательно, но заключает в себе либо и то и другое вместе (что Отец ни от кого и что он – начало других), либо всеобщий авторитет, либо источную полноту. Но это, по-видимому, неверно. Ибо тогда нерождённость не была бы свойством, отличным от отцовства и изведения [Духа], а включала бы их, как собственное включается в общее: ведь „источность“ и авторитет в божественном означают не что иное, как начало происхождения».
+
+### К28. In I Sent. d.15 q.2 a.1 co.
+
+> *In divinis autem personis non est auctoritas nisi secundum originem; et ideo nulli personae divinae convenit mitti nisi ei quae est ab alio, respectu cujus potest in alio designari auctoritas; et ideo spiritus sanctus et filius dicuntur mitti, et non pater vel Trinitas ipsa.*
+>
+> «В божественных Лицах нет авторитета иначе как по происхождению. Поэтому ни одному божественному Лицу не подобает быть посланным, кроме того, которое от другого и в отношении которого в другом может быть обозначен авторитет; поэтому посланными называются Святой Дух и Сын, а не Отец и не сама Троица».
+
+### К29. In I Sent. d.16 q.1 a.4, expos. textus
+
+> *Et quamvis patri attribuatur auctoritas a sanctis, tamen filio non attribuitur subauctoritas, sed est per abusum loquentium praesumptum; et hoc sonant verba Hilarii dicentis quod major est donans, sed non est minor, cui unum esse donatur.*
+>
+> «И хотя святые приписывают Отцу авторитет, Сыну, однако, не приписывается „подавторитетность“ (subauctoritas): она допущена по злоупотреблению говорящих; так звучат и слова Илария, говорящего, что дарующий больше, но не меньше тот, кому даруется единое бытие».
+
+### К30. In I Sent. d.25 q.1 a.4, expos. textus
+
+> *Non est prorsus aliquis in Trinitate gradus. Contra. Augustinus: pater et filius non differunt in substantia, sed tantum in gradu. Praeterea, sub denotat gradum. Sed in filio dicitur esse subauctoritas. Ergo et cetera. Est dicendum, quod cum gradus importet ordinem dignitatis secundum sub et supra, in divinis proprie gradus non potest concedi … Augustinus autem large gradum pro ordine accipit, sicut causam pro principio. Subauctoritas autem non invenitur a sanctis in filio posita: unde non videtur proprie esse dictum.*
+>
+> «„Нет вовсе никакой ступени в Троице“. Против: Августин говорит, что Отец и Сын различаются не по субстанции, а только по ступени. Далее, „под“ означает ступень, а о Сыне говорится, что в нём есть подавторитетность; следовательно… Следует сказать: поскольку ступень подразумевает порядок достоинства по „ниже“ и „выше“, в божественном ступень в собственном смысле не может быть допущена… Августин же широко берёт ступень вместо порядка, как причину вместо начала. „Подавторитетность“ же не встречается у святых применительно к Сыну; поэтому, по-видимому, это сказано не в собственном смысле».
+
+### К31. ST III q.64 a.3 co.
+
+> *Respondeo dicendum quod interiorem sacramentorum effectum operatur Christus et secundum quod est Deus, et secundum quod est homo, aliter tamen et aliter. Nam secundum quod est Deus, operatur in sacramentis per auctoritatem. Secundum autem quod est homo, operatur ad interiores effectus sacramentorum meritorie, et efficienter, sed instrumentaliter.*
+>
+> «Отвечаю: внутреннее действие таинств производит Христос и как Бог, и как человек, но по-разному. Как Бог, он действует в таинствах через авторитет; как человек – производит внутренние действия таинств заслугой и действенно, но инструментально».
+
+### К32. ST III q.64 a.4 co. и ad 2
+
+> *Respondeo dicendum quod, sicut dictum est, Christus in sacramentis habuit duplicem potestatem. Unam auctoritatis, quae competit ei secundum quod Deus. Et talis potestas nulli creaturae potuit communicari, sicut nec divina essentia.*
+>
+> *Ad secundum dicendum quod obiectio illa procedit de potestate auctoritatis, quae convenit Christo secundum quod est Deus. Licet et potestas excellentiae possit auctoritas nominari per comparationem ad alios ministros.*
+>
+> «Отвечаю: как сказано, Христос в таинствах имел двоякую власть. Одну – власть авторитета, которая подобает ему как Богу; такая власть не могла быть сообщена никакому творению, как и божественная сущность». – «На второе: возражение исходит из власти авторитета, которая подобает Христу как Богу. Впрочем, и власть превосходства может быть названа авторитетом по сравнению с другими служителями».
+
+### К33. ST III q.8 a.1 ad 1; q.27 a.5 co.; In IV Sent. d.5 q.2 a.2 qc.2 co.
+
+> *[III q.8 a.1 ad 1] Ad primum ergo dicendum quod dare gratiam aut spiritum sanctum convenit Christo secundum quod Deus, auctoritative, sed instrumentaliter ei convenit secundum quod est homo, inquantum scilicet eius humanitas fuit instrumentum divinitatis eius.*
+>
+> *[III q.27 a.5 co.] Christus autem est principium gratiae, secundum divinitatem quidem auctoritative, secundum humanitatem vero instrumentaliter…*
+>
+> *[In IV Sent. d.5] Agens autem principale in baptizando est ipse Deus per auctoritatem, et ipse Christus secundum quod homo, cujus meritum operatur in Baptismo… Sed baptizans est tantum agens instrumentale…*
+>
+> «Давать благодать или Святого Духа подобает Христу как Богу – авторитетно (auctoritative), а как человеку – инструментально, поскольку его человечество было орудием его божества». – «Христос есть начало благодати: по божеству – авторитетно, по человечеству – инструментально…» – «Главный действующий в крещении – сам Бог через авторитет и сам Христос как человек, чья заслуга действует в крещении… Крестящий же – лишь инструментальный действующий…»
+
+### К34. In IV Sent. d.18 q.1 a.1 qc.1 co. (ответ полностью)
+
+> *Respondeo dicendum ad primam quaestionem, quod in corporalibus dicitur clavis instrumentum quo ostium aperitur. Regni autem ostium nobis clauditur per peccatum et quantum ad maculam, et quantum ad reatum poenae; et ideo potestas qua tale obstaculum regni removetur, dicitur clavis. Haec autem potestas est quidem in sanctissima Trinitate per auctoritatem; et ideo dicitur a quibusdam quod habet clavem auctoritatis; sed in Christo homine fuit haec potestas ad removendum praedictum obstaculum per meritum passionis, quae etiam dicitur januam aperire; et ideo dicitur habere secundum quosdam claves excellentiae. Sed quia ex latere dormientis in cruce sacramenta fluxerunt, quibus Ecclesia fabricatur; ideo in sacramentis Ecclesiae efficacia passionis manet; et propter hoc etiam in ministris Ecclesiae, qui sunt dispensatores sacramentorum, potestas aliqua manet ad praedictum obstaculum removendum, non propria virtute, sed virtute divina, et passionis Christi; et haec potestas metaphorice clavis Ecclesiae dicitur; quae est clavis ministerii.*
+>
+> «Отвечаю на первый вопрос: в телесных вещах ключом называется орудие, которым открывается дверь. Дверь же Царства закрыта для нас грехом – и в отношении скверны, и в отношении вины, требующей наказания. Поэтому власть, которой устраняется такое препятствие к Царству, называется ключом. Эта власть пребывает в святейшей Троице через авторитет; поэтому некоторые говорят, что Троица имеет ключ авторитета. Во Христе же как человеке власть устранять названное препятствие была через заслугу страдания, о котором говорится, что оно открывает дверь; поэтому, по мнению некоторых, он имеет ключи превосходства. Но поскольку из ребра спящего на кресте истекли таинства, которыми созидается Церковь, в таинствах Церкви пребывает сила страдания. Поэтому и в служителях Церкви, распорядителях таинств, пребывает некая власть устранять названное препятствие – не собственной силой, но силой божественной и силой страдания Христова; эта власть метафорически называется ключом Церкви, то есть ключом служения».
+
+### К35. In IV Sent. d.24 q.1 a.1 qc.4 ad 1 (второе предложение ответа)
+
+> *Quamvis enim in episcopo, qui est minister hujus sacramenti, non sit auctoritas respectu collationis hujus sacramenti; tamen habet aliquam potestatem respectu potestatis ordinis quae confertur per ipsum, inquantum a sua potestate derivatur.*
+>
+> «Хотя у епископа, служителя этого таинства [священства], нет авторитета в отношении его преподания, однако он имеет некоторую власть в отношении власти сана, которая сообщается через него, поскольку она производна от его власти».
+
+### К36. ST II–II q.40 a.1 co.
+
+> *Respondeo dicendum quod ad hoc quod aliquod bellum sit iustum, tria requiruntur. Primo quidem, auctoritas principis, cuius mandato bellum est gerendum.*
+>
+> «Отвечаю: чтобы война была справедливой, требуются три вещи. Во-первых, авторитет государя, по повелению которого ведётся война».
+
+### К37. ST II–II q.60 a.6 co.
+
+> *Cum autem eiusdem auctoritatis sit legem interpretari et legem condere, sicut lex condi non potest nisi publica auctoritate, ita nec iudicium ferri potest nisi publica auctoritate, quae quidem se extendit ad eos qui communitati subduntur.*
+>
+> «Поскольку толковать закон и устанавливать закон – дело одного и того же авторитета, то, как закон может быть установлен лишь публичным авторитетом, так и суд может выноситься лишь публичным авторитетом, который распространяется на подчинённых сообществу».
+
+### К38. ST I q.1 a.8 arg. 2 и ad 2
+
+> *[arg. 2] Praeterea, si sit argumentativa, aut argumentatur ex auctoritate, aut ex ratione. Si ex auctoritate, non videtur hoc congruere eius dignitati, nam locus ab auctoritate est infirmissimus, secundum Boetium. …*
+>
+> *[ad 2] Ad secundum dicendum quod argumentari ex auctoritate est maxime proprium huius doctrinae, eo quod principia huius doctrinae per revelationem habentur, et sic oportet quod credatur auctoritati eorum quibus revelatio facta est. Nec hoc derogat dignitati huius doctrinae, nam licet locus ab auctoritate quae fundatur super ratione humana, sit infirmissimus; locus tamen ab auctoritate quae fundatur super revelatione divina, est efficacissimus. … Cum enim gratia non tollat naturam, sed perficiat, oportet quod naturalis ratio subserviat fidei … Et inde est quod etiam auctoritatibus philosophorum sacra doctrina utitur, ubi per rationem naturalem veritatem cognoscere potuerunt … Sed tamen sacra doctrina huiusmodi auctoritatibus utitur quasi extraneis argumentis, et probabilibus. Auctoritatibus autem canonicae Scripturae utitur proprie, ex necessitate argumentando. Auctoritatibus autem aliorum doctorum Ecclesiae, quasi arguendo ex propriis, sed probabiliter. Innititur enim fides nostra revelationi apostolis et prophetis factae, qui canonicos libros scripserunt, non autem revelationi, si qua fuit aliis doctoribus facta.*
+>
+> «[Возражение 2] Далее, если [священное учение] доказывает, то либо от авторитета, либо от разума. Если от авторитета, это, по-видимому, не подобает его достоинству, ибо довод от авторитета – слабейший, по Боэцию…» – «[Ответ] На второе: аргументировать от авторитета наиболее свойственно этому учению, поскольку его начала получены через откровение, и надлежит верить авторитету тех, кому было дано откровение. Это не умаляет его достоинства: хотя довод от авторитета, основанного на человеческом разуме, слабейший, довод от авторитета, основанного на божественном откровении, – самый действенный. … Поскольку благодать не упраздняет природу, но совершенствует её, естественный разум должен служить вере… Поэтому священное учение пользуется и авторитетами философов там, где они могли познать истину естественным разумом… Однако такими авторитетами оно пользуется как внешними и вероятными доводами. Авторитетами же канонического Писания – в собственном смысле, аргументируя с необходимостью. Авторитетами же других учителей Церкви – как бы аргументируя от собственного, но вероятно. Ибо наша вера опирается на откровение, данное апостолам и пророкам, написавшим канонические книги, а не на откровение, если оно было, данное другим учителям».
+
+## VI. Regimen и gubernatio
+
+### К39. ST I q.22 a.3 co.
+
+> *Respondeo dicendum quod ad providentiam duo pertinent, scilicet ratio ordinis rerum provisarum in finem; et executio huius ordinis, quae gubernatio dicitur.*
+>
+> «Отвечаю: к провидению относятся две вещи: замысел порядка вещей, предусмотренных к цели, и исполнение этого порядка, которое называется управлением».
+
+### К40. In I Sent. d.39 q.2 a.1 ad 1
+
+> *Et ipsa executio providentiae, gubernatio dicitur.*
+>
+> «И само исполнение провидения называется управлением».
+
+### К41. SCG III c.64 n.4
+
+> *Nihil est autem aliud regere et gubernare per providentiam quam movere per intellectum aliqua ad finem. Deus igitur per suam providentiam gubernat et regit omnia quae moventur in finem: sive moveantur corporaliter; sive spiritualiter, sicut desiderans dicitur moveri a desiderato.*
+>
+> «Править и управлять через провидение есть не что иное, как двигать нечто разумом к цели. Следовательно, Бог своим провидением управляет и правит всем, что движется к цели, – телесно или духовно, как говорится, что желающий движется желаемым».
+
+### К42. SCG III c.64 n.11
+
+> *Ordinare autem actiones aliquarum rerum ad finem, est gubernare ipsa. Deus igitur per suae sapientiae providentiam rebus gubernationem et regimen praestat.*
+>
+> «Направлять действия каких-либо вещей к цели – значит управлять ими. Следовательно, Бог провидением своей премудрости дарует вещам управление и правление».
+
+### К43. SCG III c.76 n.6
+
+> *Item. In rebus humanis inferiores provisores per suam industriam ordinem excogitant in his quorum gubernatio eis a praesidente committitur. Quam quidem industriam a praesidente homine non habent, nec usum ipsius: si vero a superiore eam haberent, iam ordinatio per superiorem fieret, ipsi autem essent illius ordinationis non provisores, sed executores.*
+>
+> «Далее. В человеческих делах низшие распорядители своим усердием измышляют порядок в том, управление чем вверено им начальствующим. Это усердие и пользование им они имеют не от начальствующего человека; если бы они имели его от вышестоящего, то и устроение совершалось бы вышестоящим, а они были бы не распорядителями этого устроения, а исполнителями».
+
+### К44. ST I–II q.95 a.4 co.
+
+> *Et secundum hoc distinguuntur leges humanae secundum diversa regimina civitatum. Quorum unum, secundum philosophum, in III Polit., est regnum, quando scilicet civitas gubernatur ab uno, et secundum hoc accipiuntur constitutiones principum.*
+>
+> «Соответственно человеческие законы различаются по различным правлениям городов. Одно из них, по Философу в III книге „Политики“, – царство, когда город управляется одним; в соответствии с этим принимаются постановления государей».
+
+### К45. ST I–II q.105 a.1 co.
+
+> *Respondeo dicendum quod circa bonam ordinationem principum in aliqua civitate vel gente, duo sunt attendenda. Quorum unum est ut omnes aliquam partem habeant in principatu, per hoc enim conservatur pax populi, et omnes talem ordinationem amant et custodiunt, ut dicitur in II Polit. Aliud est quod attenditur secundum speciem regiminis, vel ordinationis principatuum.*
+>
+> «Отвечаю: в добром устроении начальствующих в каком-либо городе или народе следует учитывать две вещи. Первое – чтобы все имели некоторое участие в начальствовании: этим сохраняется мир народа, и все любят и охраняют такое устроение, как сказано во II книге „Политики“. Второе – то, что рассматривается по виду правления, или устроения начальствований».
+
+### К46. ST II–II q.185 a.3 co.
+
+> *Et ideo ille qui debet aliquem eligere in episcopum, vel de eo providere, non tenetur assumere meliorem simpliciter, quod est secundum caritatem, sed meliorem quoad regimen Ecclesiae, qui scilicet possit Ecclesiam et instruere et defendere et pacifice gubernare.*
+>
+> «Поэтому тот, кто должен избрать кого-либо в епископы или назначить его, не обязан брать лучшего безусловно, то есть по любви, но лучшего в отношении управления Церковью – того, кто способен и наставлять, и защищать, и мирно управлять Церковью».
+
+### К47. ST III q.64 a.2 ad 3
+
+> *Ad tertium dicendum quod apostoli, et eorum successores, sunt vicarii Dei quantum ad regimen Ecclesiae institutae per fidem et fidei sacramenta. Unde, sicut non licet eis constituere aliam Ecclesiam, ita non licet eis tradere aliam fidem, neque instituere alia sacramenta, sed per sacramenta quae de latere Christi pendentis in cruce fluxerunt, dicitur esse fabricata Ecclesia Christi.*
+>
+> «На третье: апостолы и их преемники – наместники Бога в отношении управления Церковью, основанной верой и таинствами веры. Поэтому, как им не дозволено учредить другую Церковь, так не дозволено передать другую веру или установить другие таинства; ведь Церковь Христова, как говорится, создана таинствами, истекшими из ребра Христа, висящего на кресте».
+
+## VII. Деспотическое и политическое начальствование в аналогии души
+
+### К48. ST I q.81 a.3 ad 2 (Фома ссылается на «Политику»)
+
+> *Ad secundum dicendum quod, sicut philosophus dicit in I politicorum, est quidem in animali contemplari et despoticum principatum, et politicum, anima quidem enim corpori dominatur despotico principatu; intellectus autem appetitui, politico et regali.*
+>
+> «На второе: как говорит Философ в I книге „Политики“, в живом существе можно наблюдать и деспотическое начальствование, и политическое: душа господствует над телом деспотическим начальствованием, а ум над стремлением – политическим и царским».
+
+### К49. ST I–II q.9 a.2 ad 3
+
+> *Ad tertium dicendum quod, sicut philosophus dicit in I Polit., ratio, in qua est voluntas, movet suo imperio irascibilem et concupiscibilem, non quidem despotico principatu, sicut movetur servus a domino; sed principatu regali seu politico, sicut liberi homines reguntur a gubernante, qui tamen possunt contra movere.*
+>
+> «На третье: как говорит Философ в I книге „Политики“, разум, в котором воля, движет своим повелением раздражительную и вожделеющую способности не деспотическим начальствованием, как раб движется господином, но начальствованием царским или политическим, как свободные люди управляются правящим, – а они, однако, могут противодействовать».
+
+### К50. ST I–II q.17 a.7 co. (заключительная фраза)
+
+> *Unde philosophus dicit, in I Polit., quod ratio praeest irascibili et concupiscibili non principatu despotico, qui est domini ad servum; sed principatu politico aut regali, qui est ad liberos, qui non totaliter subduntur imperio.*
+>
+> «Поэтому Философ говорит в I книге „Политики“, что разум начальствует над раздражительной и вожделеющей способностями не деспотическим начальствованием, каково начальствование господина над рабом, но политическим или царским, каково начальствование над свободными, которые не всецело подчинены повелению».
+
+### К51. ST I–II q.56 a.4 ad 3
+
+> *Corpus enim ad nutum obedit animae absque contradictione, in his in quibus natum est ab anima moveri, unde philosophus dicit, in I Polit., quod anima regit corpus despotico principatu, idest sicut dominus servum.*
+>
+> «Тело повинуется душе по мановению, без противоречия, в том, в чём оно по природе движется душой; поэтому Философ говорит в I книге „Политики“, что душа правит телом деспотическим начальствованием, то есть как господин рабом».
+
+### К52. ST I–II q.58 a.2 co. (начало ответа)
+
+> *Nam quaedam rationi obediunt omnino ad nutum, absque omni contradictione, sicut corporis membra… Unde philosophus dicit, in I Polit., quod anima regit corpus despotico principatu, idest sicut dominus servum, qui ius contradicendi non habet.*
+>
+> «Ибо некоторые [начала] повинуются разуму всецело по мановению, без всякого противоречия, как члены тела… Поэтому Философ говорит в I книге „Политики“, что душа правит телом деспотическим начальствованием, то есть как господин рабом, у которого нет права противоречить».
+
+### К53. ST I–II q.58 a.2 co. (середина того же ответа; Corpus Thomisticum [35946])
+
+> *…ratio imperat appetitivae principatu politico, quo scilicet aliquis praeest liberis, qui habent ius in aliquo contradicendi.*
+>
+> «…разум повелевает стремящейся способностью политическим начальствованием, при котором кто-либо начальствует над свободными, имеющими право в чём-то возражать».
+
+### К54. De virt. q.1 a.4 ad 11
+
+> *Ad undecimum dicendum, quod licet irascibilis et concupiscibilis secundum se consideratae agantur, et non agant: tamen in homine secundum quod participant aliqualiter rationem, etiam quodam modo agunt; non tamen totaliter aguntur. Unde etiam in politicis dicit philosophus, quod dominium rationis super has vires est politicum; quia huiusmodi vires aliquid habent de proprio motu, ubi non totaliter obediunt rationi. Dominium autem animae ad corpus non est regale, sed dispoticum; quia membra corporis ad nutum obediunt animae quantum ad motum.*
+>
+> «На одиннадцатое: хотя раздражительная и вожделеющая способности, рассматриваемые сами по себе, приводятся в действие, а не действуют, в человеке, поскольку они некоторым образом причастны разуму, они и сами в некотором смысле действуют, хотя и не всецело приводятся в действие. Поэтому и в „Политике“ Философ говорит, что господство разума над этими силами – политическое, ибо эти силы имеют нечто от собственного движения и не вполне повинуются разуму. Господство же души над телом не царское, а деспотическое, ибо члены тела повинуются душе в движении по мановению».

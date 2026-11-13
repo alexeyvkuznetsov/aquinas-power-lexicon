@@ -1,0 +1,30 @@
+{
+  "title": "Господство, полномочия, правление: лексика власти у Фомы Аквинского. Код, таблицы и дополнительные материалы",
+  "description": "Код, таблицы результатов, рисунки, приложение и подборка латинских контекстов (К1–К54) к статье «Господство, полномочия, правление: лексика власти у Фомы Аквинского»: дистрибутивно-семантический и сетевой анализ десяти латинских обозначений власти на модели LiLa Opera Maiora (fastText skip-gram, 100 измерений). Файл модели в архив не входит.",
+  "upload_type": "software",
+  "creators": [
+    { "name": "Kuznetsov, Alexey V." }
+  ],
+  "language": "rus",
+  "license": "MIT",
+  "keywords": [
+    "Thomas Aquinas",
+    "Latin",
+    "word embeddings",
+    "distributional semantics",
+    "network analysis",
+    "digital humanities"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "http://hdl.handle.net/20.500.11752/OPEN-996",
+      "relation": "references",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "10.4000/ijcol.624",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

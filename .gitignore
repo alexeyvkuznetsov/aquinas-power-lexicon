@@ -1,3 +1,4 @@
 # Модели загружаются ноутбуками автоматически и в репозиторий не входят
-models/
+models/*
+!models/.gitkeep
 .ipynb_checkpoints/
