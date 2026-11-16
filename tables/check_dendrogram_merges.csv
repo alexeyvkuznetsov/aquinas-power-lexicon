@@ -1,10 +1,11 @@
 ﻿Шаг,Группа 1,Группа 2,Косинусное расстояние,Лемм в объединении
-1,gubernatio,regimen,0.2945,2
-2,iurisdictio,potestas,0.3349,2
-3,principatus,praelatio,0.3882,2
-4,"gubernatio, regimen","principatus, praelatio",0.4296,4
+1,principatus,dominatio,0.2123,2
+2,regimen,gubernatio,0.2945,2
+3,iurisdictio,potestas,0.3349,2
+4,praelatio,"principatus, dominatio",0.3999,3
 5,"iurisdictio, potestas",dominium,0.4337,3
-6,"gubernatio, regimen, principatus, praelatio","iurisdictio, potestas, dominium",0.4854,7
-7,"gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium",imperium,0.5034,8
-8,regnum,"gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium, imperium",0.5535,9
-9,auctoritas,"regnum, gubernatio, regimen, principatus, praelatio, iurisdictio, potestas, dominium, imperium",0.5818,10
+6,"praelatio, principatus, dominatio","regimen, gubernatio",0.446,5
+7,"iurisdictio, potestas, dominium","praelatio, principatus, dominatio, regimen, gubernatio",0.487,8
+8,"iurisdictio, potestas, dominium, praelatio, principatus, dominatio, regimen, gubernatio",imperium,0.5098,9
+9,regnum,"iurisdictio, potestas, dominium, praelatio, principatus, dominatio, regimen, gubernatio, imperium",0.5474,10
+10,auctoritas,"regnum, iurisdictio, potestas, dominium, praelatio, principatus, dominatio, regimen, gubernatio, imperium",0.5809,11

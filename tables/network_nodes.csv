@@ -4,8 +4,8 @@ aio,146,нет,auctoritas
 aperio,346,нет,regnum
 apostolicus,41,нет,auctoritas
 arbiter,12,нет,potestas
-archangelus,62,нет,principatus
-aristocratia,7,нет,"principatus, regimen, gubernatio, regnum"
+archangelus,62,нет,"principatus, dominatio"
+aristocratia,7,нет,"principatus, regimen, gubernatio, regnum, dominatio"
 assertiuus,5,нет,auctoritas
 auctor,303,нет,auctoritas
 auctoritas,1363,да,–
@@ -19,12 +19,12 @@ conseruus,10,нет,dominium
 coordinatio,14,нет,gubernatio
 declaratio,6,нет,auctoritas
 degrado,27,нет,iurisdictio
-despoticus,10,нет,"dominium, imperium, principatus"
+despoticus,10,нет,"dominium, imperium, principatus, dominatio"
 diaconatus,5,нет,iurisdictio
-dominatio,55,нет,"dominium, principatus"
-dominatiuus,15,нет,principatus
-dominium,287,да,potestas
-dominor,199,нет,dominium
+dominatio,55,да,"dominium, principatus"
+dominatiuus,15,нет,"principatus, dominatio"
+dominium,287,да,"potestas, dominatio"
+dominor,199,нет,"dominium, dominatio"
 ecclesia,2898,нет,potestas
 elicitiuus,16,нет,imperium
 episcopatus,80,нет,"potestas, praelatio"
@@ -63,13 +63,15 @@ mercatio,7,нет,dominium
 michael,12,нет,principatus
 minister,814,нет,potestas
 motiuus,370,нет,imperium
+natio,29,нет,dominatio
+nominatio,20,нет,dominatio
 nutus,98,нет,imperium
 obedio,736,нет,imperium
 obiectio,373,нет,auctoritas
 officium,940,нет,praelatio
 optimas,5,нет,"principatus, regimen"
 ordinarius,32,нет,"potestas, praelatio, iurisdictio"
-ordinatio,435,нет,"potestas, praelatio, imperium, regimen, gubernatio"
+ordinatio,435,нет,"potestas, praelatio, imperium, regimen, gubernatio, dominatio"
 ordinator,20,нет,"regimen, gubernatio"
 parochialis,25,нет,iurisdictio
 patrimonium,14,нет,dominium
@@ -85,18 +87,18 @@ praelatio,249,да,–
 praepono,99,нет,praelatio
 praesideo,56,нет,"principatus, gubernatio"
 primatus,18,нет,praelatio
-princeps,414,нет,principatus
-principatus,160,да,–
-principor,43,нет,principatus
+princeps,414,нет,"principatus, dominatio"
+principatus,160,да,dominatio
+principor,43,нет,"principatus, dominatio"
 probatio,265,нет,auctoritas
 procuratio,10,нет,praelatio
 prouidentia,1247,нет,gubernatio
 prouidus,18,нет,gubernatio
-prouincia,20,нет,"principatus, regnum"
+prouincia,20,нет,"principatus, regnum, dominatio"
 prouisio,25,нет,gubernatio
 prouisor,40,нет,gubernatio
 rector,62,нет,regimen
-regalis,24,нет,"potestas, imperium, principatus, regimen, regnum"
+regalis,24,нет,"potestas, imperium, principatus, regimen, regnum, dominatio"
 regimen,189,да,"principatus, gubernatio"
 regitiuus,29,нет,regimen
 regius,35,нет,"regimen, regnum"
@@ -115,6 +117,7 @@ subdiaconatus,7,нет,iurisdictio
 subdo,1426,нет,regimen
 subiaceo,363,нет,imperium
 subiectio,132,нет,praelatio
+thronus,65,нет,dominatio
 tractator,9,нет,auctoritas
 tyrannicus,11,нет,"dominium, praelatio, principatus, regimen"
 uelatio,6,нет,praelatio
