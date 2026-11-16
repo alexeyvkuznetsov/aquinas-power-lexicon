@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Если вы используете эти материалы, сошлитесь на них так, как указано ниже. После публикации статьи сюда будет добавлен блок preferred-citation с её выходными данными."
 type: software
 title: "Господство, полномочия, правление: лексика власти у Фомы Аквинского. Код, таблицы и дополнительные материалы"
-abstract: "Код, таблицы результатов, рисунки, приложение и подборка латинских контекстов к дистрибутивно-семантическому и сетевому анализу десяти латинских обозначений власти у Фомы Аквинского (dominium, potestas, praelatio, iurisdictio, regimen, gubernatio, principatus, regnum, auctoritas, imperium) на модели LiLa Opera Maiora."
+abstract: "Код, таблицы результатов, рисунки, приложение и подборка латинских контекстов к дистрибутивно-семантическому и сетевому анализу одиннадцати латинских обозначений власти у Фомы Аквинского (dominium, potestas, praelatio, iurisdictio, regimen, gubernatio, principatus, dominatio, regnum, auctoritas, imperium) на модели LiLa Opera Maiora."
 authors:
   - family-names: "Kuznetsov"
     given-names: "Alexey V."
