@@ -1,6 +1,6 @@
 # Господство, полномочия, правление: лексика власти у Фомы Аквинского
 
-Код, таблицы, рисунки, приложение и подборка контекстов к статье А. В. Кузнецова «Господство, полномочия, правление: лексика власти у Фомы Аквинского». Сведения для цитирования — в разделе «Как цитировать» и в файле `CITATION.cff`.
+Код, таблицы, рисунки, приложение и подборка контекстов к статье «Господство, полномочия, правление: лексика власти у Фомы Аквинского».
 
 *Code, tables, figures, an appendix and selected Latin contexts for a distributional-semantic and network analysis of eleven Latin terms of power in Thomas Aquinas, using the LiLa Opera Maiora lemma embeddings. The documentation and notebook are in Russian.*
 
