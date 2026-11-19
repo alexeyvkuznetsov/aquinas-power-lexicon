@@ -2,3 +2,4 @@
 models/*
 !models/.gitkeep
 .ipynb_checkpoints/
+CITATION.cff
